@@ -1,0 +1,32 @@
+.project-card:hover .overlay {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition-duration: 0.6s;
+  -moz-transition-duration: 0.6s;
+  -o-transition-duration: 0.6s;
+  -ms-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+}
+
+.project-card .overlay {
+  background-color: rgba(0, 0, 0, 0.897);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+
+.overlay h2 {
+  background: linear-gradient(
+    90deg,
+    rgba(199, 152, 100, 1) 0%,
+    rgba(204, 127, 57, 1) 44%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

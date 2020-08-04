@@ -1,0 +1,44 @@
+.hero-height {
+  height: 700px;
+}
+
+.hero-gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(8, 8, 8, 1) 14%,
+    rgba(8, 8, 8, 1) 23%,
+    rgba(136, 136, 136, 0.2455357142857143) 76%,
+    rgba(136, 136, 136, 0.2455357142857143) 84%
+  );
+}
+
+.hero-image {
+  background: url('../../assets/images/avatar5.jpg') center center no-repeat fixed;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+@keyframes hero-image-scaleup-keyframes {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+.hero-image-scaleup {
+  animation: hero-image-scaleup-keyframes 10s ease-in-out infinite alternate;
+}
+
+.hero-tagline-border {
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    rgba(199, 152, 100, 1) 0%,
+    rgba(204, 127, 57, 1) 44%
+  );
+  width: 150px;
+}

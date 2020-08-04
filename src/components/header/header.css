@@ -1,0 +1,31 @@
+.navbar-title {
+  background: linear-gradient(
+    90deg,
+    rgba(199, 152, 100, 1) 0%,
+    rgba(204, 127, 57, 1) 44%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar-gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(22, 22, 22, 1) 35%,
+    rgba(33, 33, 33, 1) 72%
+  );
+}
+
+.navlink-selected {
+  background: linear-gradient(
+    90deg,
+    rgba(199, 152, 100, 1) 0%,
+    rgba(204, 127, 57, 1) 44%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 1rem;
+}

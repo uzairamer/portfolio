@@ -1,0 +1,7 @@
+.mobile-menu-exit {
+  left: -600px;
+}
+
+.mobile-menu-enter {
+  left: 0;
+}
