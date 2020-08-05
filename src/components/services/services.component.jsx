@@ -47,7 +47,7 @@ const Services = () => {
           <ServiceCard
             className=""
             title="Consultation"
-            description="Enterprise solutions for SaaS, ROI and other architectural patterns"
+            description="Enterprise solutions for SaaS, ROI and other architectural and business models"
           >
             <GiTalk className="text-6xl text-yellow-700 mb-2" />
           </ServiceCard>

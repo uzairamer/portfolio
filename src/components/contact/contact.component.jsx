@@ -82,7 +82,7 @@ export default class Contact extends React.Component {
               <ContactItem description="+92-324-5550324">
                 <FaPhone className="bg-yellow-700 text-white text-4xl py-2 px-2 rounded-full" />
               </ContactItem>
-              <ContactItem description="https://uzairamer.github.io">
+              <ContactItem description="https://github.com/uzairamer">
                 <FaGlobe className="bg-yellow-700 text-white text-4xl py-2 px-2 rounded-full" />
               </ContactItem>
             </div>
