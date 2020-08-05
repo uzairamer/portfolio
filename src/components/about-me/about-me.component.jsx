@@ -90,7 +90,7 @@ const AboutMe = () => {
           </h2>
           <div className="mt-6 text-md w-4/5 text-grey-400 xsm:w-full">
             <p>
-              I'm a Techonoly-Agnostic Developer based in Lahore, Pakistan 🇵🇰
+              I'm a Technology-Agnostic Developer based in Lahore, Pakistan 🇵🇰
               and I'm very confident in the work I do. With over 4 years of
               experience in software development and freelancing, I have
               enterprise-level tools in my arsenal to build the right product

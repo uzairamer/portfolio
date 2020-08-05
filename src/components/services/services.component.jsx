@@ -33,7 +33,7 @@ const Services = () => {
           <ServiceCard
             className=""
             title="Mobile App Development"
-            description="Super fast and smooth development to launch experience on both Android and iOS"
+            description="Super fast and smooth development to launch experiences on both Android and iOS"
           >
             <BsPhoneLandscape className="text-6xl text-yellow-700 mb-2" />
           </ServiceCard>
